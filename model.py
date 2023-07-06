@@ -11,7 +11,7 @@ class BinaryFMnist(nn.Module):
         self.relu = nn.LeakyReLU()
         self.flatten = nn.Flatten()
 
-        self.linear1 = nn.Linear(in_features=12*4*4, out_features=120)
+        self.linear1 = nn.Linear(in_features=12 * 4 * 4, out_features=120)
         self.linear2 = nn.Linear(in_features=120, out_features=60)
         self.out = nn.Linear(in_features=60, out_features=1)
 
