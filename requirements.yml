@@ -1,0 +1,12 @@
+name: binarymnist
+channels:
+  - defaults
+dependencies:
+  - python
+  - torchvision
+  - pytorch
+  - torchaudio
+  - pytorch-cuda=11.7
+  - tqdm
+  - matplotlib
+
