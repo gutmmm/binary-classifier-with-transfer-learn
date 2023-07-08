@@ -1,4 +1,4 @@
-# binary-fashion-mnist-with-transfer
+# Binary image classificator with transfer learning
 
 This repository contains an implementation of a binary classifier based on a deep neural network using PyTorch. The classifier is trained on the FashionMNIST dataset to distinguish between shoes and other types of clothes. Additionally, it includes a component of transfer learning to distinguish between two new types of shoes.
 
